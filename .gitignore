@@ -1,0 +1,9 @@
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.tmp
+*.bak
+pres_dco_main.pdf
