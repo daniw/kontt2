@@ -26,32 +26,31 @@
 
 \end{frame}
 
-% \begin{frame}
-%     \frametitle{}
-%     \framesubtitle{}
-%       \begin{figure}
-%         \includegraphics[width=0.7\columnwidth]{fig/ti_fg_dco_mod.pdf}
-%         \caption{Funktionsweise Modulation}
-%       \end{figure}
-% \end{frame}
-
 \subsection{Modulation}
 \begin{frame}
   \begin{tikztimingtable}
-    \mbox{\uncover<+->{MOD =  0}} & <.->33L<*>\\
-    \mbox{\uncover<+->{MOD =  1}} & <.->16LH16L<*>\\
-    \mbox{\uncover<+->{MOD =  2}} & <.->8LH15LH8L<*>\\
-    \mbox{\uncover<+->{MOD =  3}} & <.->8L2{H7L}H8L<*>\\
-    \mbox{\uncover<+->{MOD = 16}} & <.->L16{HL}<*>\\
-    \mbox{\uncover<+->{MOD = 24}} & <.->L8{3HL}<*>\\
-    \mbox{\uncover<+->{MOD = 31}} & <.->L31HL<*>\\
+    \mbox{\uncover<1->{MOD =  0}} & <1->33L<*>\\
+    \mbox{\uncover<2->{MOD =  1}} & <2->16LH16L<*>\\
+    \mbox{\uncover<3->{MOD =  2}} & <3->8LH15LH8L<*>\\
+    \mbox{\uncover<3->{MOD =  3}} & <3->8L2{H7L}H8L<*>\\
+    \mbox{\uncover<4->{MOD = 16}} & <4->L16{HL}<*>\\
+    \mbox{\uncover<4->{MOD = 24}} & <4->L8{3HL}<*>\\
+    \mbox{\uncover<4->{MOD = 31}} & <4->L31HL<*>\\
   \end{tikztimingtable}
 \end{frame}
 
 \subsection{Kalibrierung}
 \begin{frame}
+  \begin{figure}
+    \includegraphics[width=1.0\columnwidth]{fig/ti_ds_dco_freq.pdf}
+    \caption{Auszug aus dem Datenblatt}
+  \end{figure}
+\end{frame}
+\begin{frame}
   \begin{itemize}
-    \item Texas Instruments \pause
+    \item Texas Instruments \pause \\
+      MSP430Fx $\rightarrow \pm 1 \%$ \pause \\
+      MSP430Gx $\rightarrow \pm 6 \%$ \pause \\
     \item Inbetriebnahme \pause
     \item FLL
   \end{itemize}
