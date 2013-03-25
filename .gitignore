@@ -6,6 +6,7 @@
 *.toc
 *.tmp
 *.bak
+*.lof
 
 tech_ber_ei/fig
 tech_ber_ei/tech_ber_ei.pdf
